@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+}
+
+nav{
+    height: 100px;
+    width: 100% ;
+    /* background:red;   */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+
+}
+
+nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+position:sticky;
+}
+#center{
+    /* height: 40%; */
+    width: 100%;
+    padding: 5px 50px;
+
+}
+
+#center h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+#centerin{
+    /* background-color: red; */
+    height: 200px;
+    width: 100%;
+    
+    display: flex;
+    padding: 40px 50px ;
+    justify-content: space-between;
+     
+}
+
+#centerin p{
+    font-size: 15px;
+    font-weight:600;
+    line-height: 30px;
+    /* text-align: justify; */
+}
+
+ #right{
+    /* background-color: yellow; */
+    width:20%;
+    /* font-size: 20px; */
+    /* line-height:30px ; */
+    /* background-color: blue; */
+}
+
+.elem{
+
+    
+    padding: 15px 0px;
+    
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;   
+}
+.elem:hover{
+    background-color: grey
+}
+.elem:hover i{
+    opacity:1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 31%;
+    width: 100%;
+    background-color: red;
+    margin-top:10px;
+}
+
+#bottom img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
